@@ -43,16 +43,21 @@ can be moved side to side to see over one lane
 
 
 TODO:
-_set up complete test track w collision (with LOD)
+_X_set up complete test track w collision (with LOD)
 	_make gravity relative to track orientation (use normals?)
+
 _set up car controller (move side to side + camera)
-_have car move forward on track
-_SET UP DT FIXED TO BPM
+_X_have car move forward on track
+_SET UP FORWARD MOTION FIXED TO BPM
+
+_Add other cars
+_Add obastacles
+
 _set up dodge
 	_perfect dodge (hitboxes on obstacles)
 _add boost/ jump
 
 
 _add boostchain mechanic
-_breaklight particles
+_breaklight particles (use motion trails)
 	-add hitboxes
