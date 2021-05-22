@@ -1,0 +1,22 @@
+TO DO LIST
+
+- sync track woith bpm(151)
+
+Xset up gamepad input
+
+-car controller (with camera)
+
+    -camera setup
+    cam follows behind car delay when car turns
+    car rotates slightly into turns, cam ignor car rotation
+
+
+-add obstacles
+
+-breaklight particle effect
+
+    -breaklight hitboxes
+    -breaklight moves back with track
+    -use softbody??
+-create config file for all variables
+
