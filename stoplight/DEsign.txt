@@ -1,0 +1,65 @@
+
+
+--====NIGHT===--
+--======RUSH==--
+	--beat--
+
+=rythmic racing game
+
+-you control a CAR with a third person pov
+-fixed speed going forward (to bpm)
+-you can move side to side through lanes to avoid 
+	obstacles(other cars, road blocks)
+-you have x lives, and hiting an obstacle takes one life
+-BOOSTS are taken before lives
+-races are won when you come in first or are the last one standing
+
+--mechanics--
+
+-DODGING obstacles at the right moment grants you a BOOST
+	-BOOSTs can push you one unit forward, or allow you to jump. 
+
+-every racer emits a beam of light from their brakelights called the BOOSTCHAIN
+
+2 possibilitiez:
+
+cutting off an opponents BOOSTCHAIN (by moving/dodging through it) 
+pushes them one unit back (to reconect their boost chain)
+
+-or-
+
+when you boost, you leave a boost chain that serves as an obstacle for other racers;
+they must either boost through it or jump over (both requiring boosts)
+ 
+
+
+
+
+car(controller): fixed speed forward, can be moved across x axis ( and y with jump)
+
+camera: follows one unit behind, cam fov can see 3 lanes across
+can be moved side to side to see over one lane
+
+
+
+TODO:
+_set up complete test track w collision (with LOD)
+	_make gravity relative to track orientation (use normals?)
+_set up car controller (move side to side + camera)
+_have car move forward on track
+_SET UP FORWARD MOTION FIXED TO BPM
+
+	2 options:
+		A:Track geometry moves/rotates while car stands still
+			Pros: easier to use physics
+
+		B:car moves along track	
+
+_set up dodge
+	_perfect dodge (hitboxes on obstacles)
+_add boost/ jump
+
+
+_add boostchain mechanic
+_breaklight particles
+	-add hitboxes

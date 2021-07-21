@@ -1,0 +1,9 @@
+TODO
+
+
+- create configfile
+-stoplight with random timing
+-speed boost when light ius yellow
+-barrier when light is red
+-breaklight when brakes are hit 
+-motionlines when car is going fast
